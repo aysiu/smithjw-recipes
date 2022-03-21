@@ -12,10 +12,10 @@ Input:
     description: Spice up your Dock a little.
     developer: Docker Inc
     display_name: '%NAME'
-    name: '%NAME%'
+    name: '%NAME%-%ARCHITECTURE%'
     unattended_install: true
     supported_architectures:
-    - '%ARCHITECTURE%'
+      - '%ARCHITECTURE%'
 
 Process:
   - Processor: MunkiImporter
